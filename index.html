@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contact Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/base-style.css">
+	<link rel="stylesheet" href="css/selectors.css">
+</head>
+
+<body>
+	<button class="goLogin">Down</button>
+	<div id="container">
+		<div class="section-contact">
+			<form class="form-contact br">
+				<h1>Contact</h1>
+
+				<label for="name">Name:</label>
+				<input type="text" id="name">
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" placeholder="email@website.com">
+
+				<label for="msg">Message:</label>
+				<textarea id="msg" rows="7"></textarea>
+
+				<input class="btn inln default" type="submit" value="Submit">
+				<input class="btn inln error" type="reset" value="Reset">
+			</form>
+		</div>
+		<hr>
+		<div class="section-login">
+			<h1>Login</h1>
+			<img class="avatar rounded" src="img/avatar.png" alt="Mountains">
+			<form class="form-login">
+				<label for="username">Username:</label>
+				<input type="text" id="username">
+
+				<label for="password">Password:</label>
+				<input type="password" id="password">
+
+				<input class="btn default" type="submit" value="Login">
+				<a href="#" target="_blank">Forgot your password?</a>
+			</form>
+
+		</div>
+	</div>
+	<button class="goContact">Up</button>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+	<script src="./js/script.js"> </script>
+</body>
+
+</html>
